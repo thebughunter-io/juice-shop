@@ -163,11 +163,6 @@ products:
       - { text: 'This thang would look phat on Bobby''s jacked fur coat!', author: rapper }
       - { text: 'Looks so much better on my uniform than the boring Starfleet symbol.', author: jim }
   -
-    name: 'Woodruff Syrup "Forest Master X-Treme"'
-    description: 'Harvested and manufactured in the Black Forest, Germany. Can cause hyperactive behavior in children. Can cause permanent green tongue when consumed undiluted.'
-    price: 6.99
-    image: woodruff_syrup.jpg
-  -
     name: 'OWASP Juice Shop Logo (3D-printed)'
     description: 'This rare item was designed and handcrafted in Sweden. This is why it is so incredibly expensive despite its complete lack of purpose.'
     price: 99.99
@@ -189,11 +184,6 @@ products:
     image: waspy.png
     deletedDate: '2017-07-01'
   -
-    name: 'Strawberry Juice (500ml)'
-    description: 'Sweet & tasty!'
-    price: 3.99
-    image: strawberry_juice.jpeg
-  -
     name: 'OWASP SSL Advanced Forensic Tool (O-Saft)'
     description: 'O-Saft is an easy to use tool to show information about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.'
     price: 0.01
@@ -205,13 +195,6 @@ products:
     price: 19.1
     image: stickersheet_se.png
     deletedDate: '2017-09-20'
-  -
-    name: 'Pwning OWASP Juice Shop'
-    description: '<em>The official Companion Guide</em> by Björn Kimminich available <a href="https://leanpub.com/juice-shop">for free on LeanPub</a> and also <a href="https://pwning.owasp-juice.shop">readable online</a>!'
-    price: 5.99
-    image: cover_small.jpg
-    reviews:
-      - { text: 'Even more interesting than watching Interdimensional Cable!', author: morty }
   -
     name: 'OWASP Juice Shop Coaster (10pcs)'
     description: 'Our 95mm circle coasters are printed in full color and made from thick, premium coaster board.'
