@@ -3,7 +3,7 @@ server:
   basePath: ''
 application:
   domain: juice-sh.op
-  name: 'OWASP Juice Shop'
+  name: ' Hunter Shop'
   logo: JuiceShop_Logo.png
   favicon: favicon_js.ico
   theme: bluegrey-lightgreen # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
@@ -85,50 +85,7 @@ hackingInstructor:
   avatarImage: JuicyBot_MedicalMask.png
 products:
   -
-    name: 'Apple Juice (1000ml)'
-    price: 1.99
-    deluxePrice: 0.99
-    limitPerUser: 5
-    description: 'The all-time classic.'
-    image: apple_juice.jpg
-    reviews:
-      - { text: 'One of my favorites!', author: admin }
-  -
-    name: 'Orange Juice (1000ml)'
-    description: 'Made from oranges hand-picked by Uncle Dittmeyer.'
-    price: 2.99
-    deluxePrice: 2.49
-    image: orange_juice.jpg
-    reviews:
-      - { text: 'y0ur f1r3wall needs m0r3 musc13', author: uvogin }
-  -
-    name: 'Eggfruit Juice (500ml)'
-    description: 'Now with even more exotic flavour.'
-    price: 8.99
-    image: eggfruit_juice.jpg
-    reviews:
-      - { text: 'I bought it, would buy again. 5/7', author: admin }
-  -
-    name: 'Raspberry Juice (1000ml)'
-    description: 'Made from blended Raspberry Pi, water and sugar.'
-    price: 4.99
-    image: raspberry_juice.jpg
-  -
-    name: 'Lemon Juice (500ml)'
-    description: 'Sour but full of vitamins.'
-    price: 2.99
-    deluxePrice: 1.99
-    limitPerUser: 5
-    image: lemon_juice.jpg
-  -
-    name: 'Banana Juice (1000ml)'
-    description: 'Monkeys love it the most.'
-    price: 1.99
-    image: banana_juice.jpg
-    reviews:
-      - { text: 'Fry liked it too.', author: bender }
-  -
-    name: 'OWASP Juice Shop T-Shirt'
+    name: 'The Bug Hunter T-Shirt'
     description: 'Real fans wear it 24/7!'
     price: 22.49
     limitPerUser: 5
@@ -138,12 +95,6 @@ products:
     description: 'For serious Capture-the-Flag heroines only!'
     price: 22.49
     image: fan_girlie.jpg
-  -
-    name: 'OWASP SSL Advanced Forensic Tool (O-Saft)'
-    description: 'O-Saft is an easy to use tool to show information about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.'
-    price: 0.01
-    image: orange_juice.jpg
-    urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
   -
     name: 'Christmas Super-Surprise-Box (2014 Edition)'
     description: 'Contains a random selection of 10 bottles (each 500ml) of our tastiest juices and an extra fan shirt for an unbeatable price!'
@@ -217,29 +168,6 @@ products:
     price: 6.99
     image: woodruff_syrup.jpg
   -
-    name: 'Green Smoothie'
-    description: 'Looks poisonous but is actually very good for your health! Made from green cabbage, spinach, kiwi and grass.'
-    price: 1.99
-    image: green_smoothie.jpg
-    reviews:
-      - { text: 'Fresh out of a replicator.', author: jim }
-  -
-    name: 'Quince Juice (1000ml)'
-    description: 'Juice of the <em>Cydonia oblonga</em> fruit. Not exactly sweet but rich in Vitamin C.'
-    price: 4.99
-    image: quince.jpg
-  -
-    name: 'Apple Pomace'
-    description: 'Finest pressings of apples. Allergy disclaimer: Might contain traces of worms. Can be <a href="/#recycle">sent back to us</a> for recycling.'
-    price: 0.89
-    limitPerUser: 5
-    image: apple_pressings.jpg
-  -
-    name: 'Fruit Press'
-    description: 'Fruits go in. Juice comes out. Pomace you can send back to us for recycling purposes.'
-    price: 89.99
-    image: fruit_press.jpg
-  -
     name: 'OWASP Juice Shop Logo (3D-printed)'
     description: 'This rare item was designed and handcrafted in Sweden. This is why it is so incredibly expensive despite its complete lack of purpose.'
     price: 99.99
@@ -266,12 +194,11 @@ products:
     price: 3.99
     image: strawberry_juice.jpeg
   -
-    name: 'Carrot Juice (1000ml)'
-    description: 'As the old German saying goes: "Carrots are good for the eyes. Or has anyone ever seen a rabbit with glasses?"'
-    price: 2.99
-    image: carrot_juice.jpeg
-    reviews:
-      - { text: '0 st4rs f0r 7h3 h0rr1bl3 s3cur17y', author: uvogin }
+    name: 'OWASP SSL Advanced Forensic Tool (O-Saft)'
+    description: 'O-Saft is an easy to use tool to show information about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.'
+    price: 0.01
+    image: orange_juice.jpg
+    urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
   -
     name: 'OWASP Juice Shop Sweden Tour 2017 Sticker Sheet (Special Edition)'
     description: '10 sheets of Sweden-themed stickers with 15 stickers on each.'
@@ -286,34 +213,11 @@ products:
     reviews:
       - { text: 'Even more interesting than watching Interdimensional Cable!', author: morty }
   -
-    name: 'Melon Bike (Comeback-Product 2018 Edition)'
-    description: 'The wheels of this bicycle are made from real water melons. You might not want to ride it up/down the curb too hard.'
-    price: 2999
-    quantity: 3
-    limitPerUser: 1
-    image: melon_bike.jpeg
-  -
     name: 'OWASP Juice Shop Coaster (10pcs)'
     description: 'Our 95mm circle coasters are printed in full color and made from thick, premium coaster board.'
     price: 19.99
     quantity: 0
     image: coaster.jpg
-  -
-    name: 'OWASP Snakes and Ladders - Web Applications'
-    description: 'This amazing web application security awareness board game is <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1969196030">available for Tabletop Simulator on Steam Workshop</a> now!'
-    price: 0.01
-    quantity: 8
-    image: snakes_ladders.jpg
-    reviews:
-      - { text: 'Wait for a 10$ Steam sale of Tabletop Simulator!', author: bjoernOwasp }
-  -
-    name: 'OWASP Snakes and Ladders - Mobile Apps'
-    description: 'This amazing mobile app security awareness board game is <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1970691216">available for Tabletop Simulator on Steam Workshop</a> now!'
-    price: 0.01
-    quantity: 0
-    image: snakes_ladders_m.jpg
-    reviews:
-      - { text: "Here yo' learn how tha fuck ta not show yo' goddamn phone on camera!", author: rapper }
   -
     name: 'OWASP Juice Shop Holographic Sticker'
     description: "Die-cut holographic sticker. Stand out from those 08/15-sticker-covered laptops with this shiny beacon of 80's coolness!"
@@ -324,16 +228,6 @@ products:
       - { text: "Rad, dude!", author: rapper }
       - { text: "Looks spacy on Bones' new tricorder!", author: jim }
       - { text: "Will put one on the Planet Express ship's bumper!", author: bender }
-  -
-    name: 'OWASP Juice Shop "King of the Hill" Facemask'
-    description: "Facemask with compartment for filter from 50% cotton and 50% polyester."
-    price: 13.49
-    quantity: 0
-    limitPerUser: 1
-    image: fan_facemask.jpg
-    reviews:
-      - { text: "K33p5 y0ur ju1cy 5plu773r 70 y0ur53lf!", author: uvogin }
-      - { text: "Puny mask for puny human weaklings!", author: bender }
   -
     name: 'Juice Shop Adversary Trading Card (Common)'
     description: 'Common rarity "Juice Shop" card for the <a href="https://docs.google.com/forms/d/e/1FAIpQLSecLEakawSQ56lBe2JOSbFwFYrKDCIN7Yd3iHFdQc5z8ApwdQ/viewform">Adversary Trading Cards</a> CCG.'
@@ -356,15 +250,6 @@ products:
     reviews:
       - { text: "Mau Mau with bling-bling? Humans are so pathetic!", author: bender }
   -
-    name: 'Juice Shop "Permafrost" 2020 Edition'
-    description: 'Exact version of <a href="https://github.com/bkimminich/juice-shop/releases/tag/v9.3.1-PERMAFROST">OWASP Juice Shop that was archived on 02/02/2020</a> by the GitHub Archive Program and ultimately went into the <a href="https://github.blog/2020-07-16-github-archive-program-the-journey-of-the-worlds-open-source-code-to-the-arctic">Arctic Code Vault</a> on July 8. 2020 where it will be safely stored for at least 1000 years.'
-    price: 9999.99
-    quantity: 1
-    limitPerUser: 1
-    image: permafrost.jpg                                                                                 
-    reviews:
-      - { text: "🧊 Let it go, let it go 🎶 Can't hold it back anymore 🎶 Let it go, let it go 🎶 Turn away and slam the door ❄️", author: rapper }
-  -
     name: 'Best Juice Shop Salesman Artwork'
     description: 'Unique digital painting depicting Stan, our most qualified and almost profitable salesman. He made a succesful carreer in selling used ships, coffins, krypts, crosses, real estate, life insurance, restaurant supplies, voodoo enhanced asbestos and courtroom souvenirs before <em>finally</em> adding his expertise to the Juice Shop marketing team.'
     price: 5000
@@ -373,15 +258,6 @@ products:
     reviews:
       - { text: "I'd stand on my head to make you a deal for this piece of art.", author: stan }
       - { text: "Just when my opinion of humans couldn't get any lower, along comes Stan...", author: bender }
-  -
-    name: 'OWASP Juice Shop Card (non-foil)'
-    description: 'Mythic rare <small><em>(obviously...)</em></small> card "OWASP Juice Shop" with three distinctly useful abilities. Alpha printing, mint condition. A true collectors piece to own!'
-    price: 1000
-    quantity: 3
-    limitPerUser: 1
-    image: card_alpha.jpg
-    reviews:
-      - { text: 'DO NOT PLAY WITH THIS! Double-sleeve, then put it in the GitHub Arctic Vault for perfect preservation and boost of secondary market value!', author: accountant }
 memories:
   -
     image: 'magn(et)ificent!-1571814229653.jpg'
